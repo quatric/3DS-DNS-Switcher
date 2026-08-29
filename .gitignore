@@ -1,0 +1,11 @@
+.DS_Store
+build/
+work/
+work-build-stale/
+*.o
+*.d
+*.elf
+*.lst
+*.map
+*.3gx
+*.plgInfo
