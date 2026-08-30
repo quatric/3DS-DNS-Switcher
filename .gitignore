@@ -9,3 +9,5 @@ work-build-stale/
 *.map
 *.3gx
 *.plgInfo
+*.bnr
+*.smdh
