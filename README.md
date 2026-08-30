@@ -34,8 +34,8 @@ loader.
 ## Building
 
 Install a current devkitARM/libctru toolchain and run `make` from the
-`standalone` directory. This produces `dns-switcher.elf` and
-`dns-switcher.3dsx`. Packaging the HOME Menu CIA additionally requires
+`standalone` directory. This produces `3DS-DNS-Switcher.elf` and
+`3DS-DNS-Switcher.3dsx`. Packaging the HOME Menu CIA additionally requires
 `bannertool` and `makerom`; the supplied `app.rsf`, artwork, and audio are the
 inputs used for the included CIA.
 

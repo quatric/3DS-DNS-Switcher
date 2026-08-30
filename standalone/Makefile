@@ -6,7 +6,7 @@ endif
 TOPDIR ?= $(CURDIR)
 include $(DEVKITARM)/3ds_rules
 
-TARGET := dns-switcher
+TARGET := 3DS-DNS-Switcher
 BUILD := build
 SOURCES := source
 INCLUDES := ../include
@@ -60,7 +60,7 @@ cia: $(BUILD)
 	@echo built ... $(CIA_TARGET)
 
 clean:
-	rm -rf $(BUILD) $(TARGET).elf $(TARGET).3dsx $(TARGET).smdh $(TARGET).bnr $(TARGET).map
+	rm -rf $(BUILD) $(TARGET).elf $(TARGET).3dsx $(TARGET).smdh $(TARGET).bnr $(TARGET).map $(CIA_TARGET)
 else
 DEPENDS := $(OFILES:.o=.d)
 $(OUTPUT).3dsx: $(OUTPUT).elf

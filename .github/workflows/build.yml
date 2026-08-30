@@ -46,7 +46,7 @@ jobs:
         with:
           name: 3DS-DNS-Switcher
           path: |
-            standalone/dns-switcher.3dsx
+            standalone/3DS-DNS-Switcher.3dsx
             standalone/3DS-DNS-Switcher.cia
 
       - name: Release
@@ -54,7 +54,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            standalone/dns-switcher.3dsx
+            standalone/3DS-DNS-Switcher.3dsx
             standalone/3DS-DNS-Switcher.cia
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
