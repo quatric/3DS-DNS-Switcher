@@ -1,6 +1,6 @@
 # 3DS DNS Switcher
 
-A Nintendo 3DS HOME Menu application for quickly switching the DNS used by
+A Nintendo 3DS application for quickly switching the DNS used by
 existing Wi-Fi connections.
 
 ## Features
